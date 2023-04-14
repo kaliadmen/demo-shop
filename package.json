@@ -4,10 +4,7 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+    "start": "strapi start"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.9.0",
@@ -26,8 +23,8 @@
     "uuid": "e122088e-6ae1-4ad4-9e68-060f09b80291"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
+    "node": ">=14.19.1 <19",
+    "npm": "<=6.0.0"
   },
   "license": "MIT"
 }
